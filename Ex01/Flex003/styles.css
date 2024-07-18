@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    flex-direction: column;
+    flex: auto;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  p {
+    font-size: 20px;
+
+  }
+  div.container {
+    background-color: grey;
+
+    display: flex;
+    flex-flow: row wrap-reverse;
+  }
+  div.item {
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+  }
